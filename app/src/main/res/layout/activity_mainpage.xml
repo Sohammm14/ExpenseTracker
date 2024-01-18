@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="278dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="397dp"
+        android:text="Username"
+        android:textAlignment="center"
+        android:textColor="#BFBDBD"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305" />
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="278dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="291dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="236dp"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textColor="#BFBDBD"
+        android:textColorHighlight="#E91E63"
+        android:textColorHint="#807E7E"
+        android:textColorLink="#535252"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="175dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="141dp"
+        android:backgroundTint="#2196F3"
+        android:text="Login"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <TextView
+        android:id="@+id/reg2"
+        android:layout_width="188dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="474dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="238dp"
+        android:text="Login Here"
+        android:textAlignment="center"
+        android:textColor="#888787"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
